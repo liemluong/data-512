@@ -31,12 +31,19 @@ This final CSV file has the following data fields:
 Data Fields                      Value          Description
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 year                             YYYY           The year in which the traffic data on the English Wikipedia values being collected
+
 month                            MM             The month in which the traffic data on the English Wikipedia values being collected (monthly statistic)
+
 pagecount_all_views              num_views      Number of total views for the legacy pagecount API of all views (desktop & mobile)
+
 pagecount_desktop_views          num_views      Number of total views for the legacy pagecount API of desktop view only
+
 pagecount_mobile_views           num_views      Number of total views for the legacy pagecount API of mobile view only
+
 pageview_all_views               num_views      Number of total views for the new pageview API of all views (desktop & mobile)
+
 pageview_desktop_views           num_views      Number of total views for the new pageview API of desktop view only
+
 pageview_mobile_views            num_views      Number of total views for the new pageview API of mobile view only
 
 HELPFUL NOTES:
