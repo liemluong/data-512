@@ -13,15 +13,22 @@ The license of the source data conforms to the Wikimedia Foundation REST API
 Terms of use: https://www.mediawiki.org/wiki/Wikimedia_REST_API#Terms_and_conditions
 
 The data source of this analysis are collected from the two different API endpoints:
-- The Legacy Pagecount API
---- Note: This provides access to desktop and mobile traffic data from December 2007 through July 2016
---- Documentation: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
---- Link to Endpoint: https://wikimedia.org/api/rest_v1/#/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end
 
-- The Pageview API
---- Note: This provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month
---- Documentation: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
---- Link to Endpoint: https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end
+The Legacy Pagecount API
+
+- Note: This provides access to desktop and mobile traffic data from December 2007 through July 2016
+
+- Documentation: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Legacy_Pagecounts
+
+- Link to Endpoint: https://wikimedia.org/api/rest_v1/#/Pagecounts_data_(legacy)/get_metrics_legacy_pagecounts_aggregate_project_access_site_granularity_start_end
+
+The Pageview API
+
+- Note: This provides access to desktop, mobile web, and mobile app traffic data from July 2015 through last month
+
+- Documentation: https://wikitech.wikimedia.org/wiki/Analytics/AQS/Pageviews
+
+- Link to Endpoint: https://wikimedia.org/api/rest_v1/#/Pageviews_data/get_metrics_pageviews_aggregate_project_access_agent_granularity_start_end
 
 FINAL DATA FILE:
 ----------------
@@ -55,4 +62,24 @@ HELPFUL NOTES:
 3. In the final result data file, value 0 indicates there were 0 views for that particular month in year for a given access method (e.g. desktop, mobile, etc.)
 
 4. The code in the Jupyter notebook walks you through the steps by steps and should be executed in sequence.
+
+5. Key factor in determine the correct start and end date
+
+   We have to take into the consideration of when the data is available based on the API documentation. By incorporating this factor with the assignment requirement, we will end    up with the correct first 'start' and 'end' value for all JSON files. You will see the final visualization will be similar to the example from the assignment in the end.
+
+   Time series diagram below.
+
+   January 1, 2008 ----------------------------------- July 2015-----------July 2016 ---------------------------------- August 30, 2020
+
+   pagecount
+
+   - Per API documentation, its data is available from December 2007 through July 2016 == > 'end' is July 2016
+   
+   - Per the assignment analysis requirement from Jan 2008 through August 2020 == > 'start' is Jan 2008
+
+   pageview
+
+   - Per API documentation, its data is available from July 2015 through last month == > 'start' is July 2015
+   
+   - Per the assignment analysis requirement from Jan 2008 through August 2020 ==> 'end' is August 2020
 
