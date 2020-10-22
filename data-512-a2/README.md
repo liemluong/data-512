@@ -11,7 +11,7 @@ How about the distribution of aggression score?
 ![](Resource/A2_chart_aggression_score-kernel-density.jpg)
 
 
-In this project, we will analyze and will have a better understanding about these two areas.
+Hope these two visualuzations caught your desire to know more about this topic. In this project, we will analyze and will have a better understanding about these two areas.
 
 ## Summary
 The objective of this assignment is to examine the potential sources of bias in a corpus of human-annotated data (Wikipedia Talk Corpus) and describe some implications of those biases in connecting to [Perspective API](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks)
@@ -59,7 +59,12 @@ There are two hypothesis/questions that i want to find out:
 2. Is there a bias relationships between worker demographics and labeling behavior in aggression?
 
 ## Code structure
-All of the analysis and the detail step by step are in one Jupyter notebook file which you can find from this GitHub repository
-The images of visualization charts are also available in this repository.
+All of the analysis and the detail step by step are in one Jupyter notebook file which you can find from this GitHub repository.
+The images of visualization charts are also available in this repository inside the Resource folder.
 
+## Helpful Notes
+As you follow along the analysis from this repository as well as the Jupyter Notebook, there are some helpful tips i want to share to ensure you reproduce the analysis with no issue.
+1. The datasets i chose to analyze are Toxicity and Aggression. Each dataset has three separate TSV files. You wonder why i dont have the data files on this GitHub repository. These raw data files are huge (more than 25 MB in size most of the time), GitHub won't allow to upload them on the repository so i couldn't load them here. However, i have include a direct link to [Figshare](https://figshare.com/projects/Wikipedia_Talk/16731) in this README file, that way you can always grab the latest data files directly from the main source
+2. For the Exploratory Data Analysis (EDA), it is a process to explore the data in a logical approach. The next steps depend on the previous steps to ensure we reach the final outcome. The Jupyter Notebook has the detail of steps that you can follow along in sequence for the EDA.
+3. I add my comments along the way for major points throughout the EDA, these will be helpful to provide the context and logical thinking about the results from the EDA at that particular stage.
 
