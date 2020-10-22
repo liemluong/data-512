@@ -24,7 +24,7 @@ There are three separate datasets. You can download these datasets from the Figs
 
 
 ## Data Description
-* An overview of the data is available [here](https://meta.wikimedia.org/wiki/Research:Detox/Data_Release.)
+* An overview of the data is available [here](https://meta.wikimedia.org/wiki/Research:Detox/Data_Release)
 * These datasets are released under a CC0 public domain dedication.
 * Citation: Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. doi.org/10.6084/m9.figshare.4054689
 
