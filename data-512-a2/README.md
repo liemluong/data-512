@@ -4,6 +4,15 @@
 
 -------------------------------------------------------------------------------
 
+What is the distribution of toxicity score be?
+![](Resource/A2_chart_toxicity_score-kernel_density.JPG)  
+
+How about the distribution of aggression score?
+![](Resource/A2_chart_aggression_score-kernel_density.JPG)
+
+
+
+
 ## Summary
 The objective of this assignment is to examine the potential sources of bias in a corpus of human-annotated data (Wikipedia Talk Corpus) and describe some implications of those biases in connecting to [Perspective API](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks)
 
