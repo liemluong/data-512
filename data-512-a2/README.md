@@ -80,3 +80,12 @@ As you follow along the analysis from this repository as well as the Jupyter Not
 
 I documented my judgement about not doing the analysis for raw text from the comments. Some of the comments (i.e. explicit words) are not approriate to display from the result nor the visualization as well as online GitHub community. In the spirit of privacy and ethical research principle, it is better to skip the analysis for this raw comment text. I believe, we already have enough analysis to identify the bias from this study. 
 
+## Extra Reading
+There are many resources about the topic of bias in data available online. If you want to go deeper on this topic, these are interesting readings to check out:
+
+* [Fancy landing page for Perspective API](https://www.perspectiveapi.com/#/)
+* [Research paper that describes the corpus](https://arxiv.org/abs/1610.08914)
+* [Sample notebook for exploratory analysis](https://github.com/ewulczyn/wiki-detox/blob/master/src/figshare/Wikipedia%20Talk%20Data%20-%20Getting%20Started.ipynb) 
+* [Perspective API docs on GitHub](https://github.com/conversationai/perspectiveapi/blob/master/2-api/methods.md)
+* [Wired article about Perspective API](https://www.wired.com/2017/08/internet-troll-map/)
+* [Engadget article about Perspective API](https://www.engadget.com/2017-09-01-google-perspective-comment-ranking-system.html)
