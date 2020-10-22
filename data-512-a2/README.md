@@ -4,14 +4,14 @@
 
 -------------------------------------------------------------------------------
 
-What is the distribution of toxicity score be?
-![](Resource/A2_chart_toxicity_score-kernel_density.JPG)  
+Have you ever wonder what is the distribution of toxicity score be?
+![](Resource/A2_chart_toxicity_score-kernel_density.jpg)  
 
 How about the distribution of aggression score?
-![](Resource/A2_chart_aggression_score-kernel_density.JPG)
+![](Resource/A2_chart_aggression_score-kernel-density.jpg)
 
 
-
+In this project, we will analyze and will have a better understanding about these two areas.
 
 ## Summary
 The objective of this assignment is to examine the potential sources of bias in a corpus of human-annotated data (Wikipedia Talk Corpus) and describe some implications of those biases in connecting to [Perspective API](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks)
@@ -57,3 +57,9 @@ There are two hypothesis/questions that i want to find out:
 
 1. Is there a bias relationships between worker demographics and labeling behavior in toxicity?
 2. Is there a bias relationships between worker demographics and labeling behavior in aggression?
+
+## Code structure
+All of the analysis and the detail step by step are in one Jupyter notebook file which you can find from this GitHub repository
+The images of visualization charts are also available in this repository.
+
+
