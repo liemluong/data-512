@@ -11,7 +11,7 @@ How about the distribution of aggression score?
 ![](Resource/A2_chart_aggression_score-kernel-density.jpg)
 
 
-Hope these two visualuzations caught your desire to know more about this topic. In this project, we will analyze and will have a better understanding about these two areas.
+Hope these two visualizations caught your desire to know more about this topic. In this project, we will analyze and will have a better understanding about these two areas.
 
 ## Summary
 The objective of this assignment is to examine the potential sources of bias in a corpus of human-annotated data (Wikipedia Talk Corpus) and describe some implications of those biases in connecting to [Perspective API](https://github.com/conversationai/perspectiveapi/wiki/perspective-hacks)
@@ -23,19 +23,22 @@ The data we use in this assignment is "Wikipedia Talk Labels" which you can down
 There are three separate datasets. You can download these datasets from the Figshare website and store on your project working directory.
 
 1. Toxicity
-- 160k labeled comments from English Wikipedia by approximately 10 annotators via Crowdflower on a spectrum of how toxic the comment is (perceived as likely to make people want to leave the discussion) to how healthy to conversation the contribution is.
+  * 160k labeled comments from English Wikipedia by approximately 10 annotators via Crowdflower on a spectrum of how toxic the comment is (perceived as likely to make people   want to leave the discussion) to how healthy to conversation the contribution is.
+  * Link to [Toxicity](https://github.com/ewulczyn/wiki-detox/blob/master/src/modeling/toxicity_question.png) questionaire
 
 2. Aggression
-- 100k labeled comments from English Wikipedia by approximately 10 annotators via Crowdflower on how aggressive the comment was perceived to be. We also include some demographic data for each crowd-worker.
+  * 100k labeled comments from English Wikipedia by approximately 10 annotators via Crowdflower on how aggressive the comment was perceived to be. We also include some demographic data for each crowd-worker.
+  * Link to [Aggression](https://github.com/ewulczyn/wiki-detox/blob/master/src/modeling/aggression_question.png) questionaire
 
 3. Personal Attacks
-- 100k labeled comments from English Wikipedia by approximately of 10 annotators via Crowdflower on whether it contains a personal attack. We also include some demographic data for each crowd-worker.
+  * 100k labeled comments from English Wikipedia by approximately of 10 annotators via Crowdflower on whether it contains a personal attack. We also include some demographic data for each crowd-worker.
+  * Link to [Personal Attack](https://github.com/ewulczyn/wiki-detox/blob/master/src/modeling/attack_question.png) questionaire
 
 
 ## Data Description
-* An overview of the data is available [here](https://meta.wikimedia.org/wiki/Research:Detox/Data_Release)
-* These datasets are released under a CC0 public domain dedication.
-* Citation: Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. doi.org/10.6084/m9.figshare.4054689
+An overview of the data is available [here](https://meta.wikimedia.org/wiki/Research:Detox/Data_Release)
+* These datasets are released under a CC0 public domain dedication by the source.
+* These datasets can also be cited as: Citation: Wulczyn, Ellery; Thain, Nithum; Dixon, Lucas (2016): Wikipedia Detox. figshare. doi.org/10.6084/m9.figshare.4054689
 
 Each individual dataset contains three separate TSV files: annotations, annotated comments, and worker demographics. Each dataset contains thousands of online discussion posts made by Wikipedia editors. Crowdworkers labelled these posts for three kinds of histile speech: toxicity, aggression, and personal attacks
 
