@@ -77,5 +77,6 @@ As you follow along the analysis from this repository as well as the Jupyter Not
 * What did i found?
 * Did i find bias? 
 * What i did not?
+
 I documented my judgement about not doing the analysis for raw text from the comments. Some of the comments (i.e. explicit words) are not approriate to display from the result nor the visualization as well as online GitHub community. In the spirit of privacy and ethical research principle, it is better to skip the analysis for this raw comment text. I believe, we already have enough analysis to identify the bias from this study. 
 
