@@ -30,15 +30,15 @@ There are three separate datasets. You can download these datasets from the Figs
 
 Each individual dataset contains three separate TSV files: annotations, annotated comments, and worker demographics. Each dataset contains thousands of online discussion posts made by Wikipedia editors. Crowdworkers labelled these posts for three kinds of histile speech: toxicity, aggression, and personal attacks
 
-Picture 1
+![](Resource/data_1_pic.JPG)
 
-Picture 2
+![](Resource/data_2_pic.JPG)
 
-Picture 3
+![](Resource/data_3_pic.JPG)
 
-Picture 4
+![](Resource/data_4_pic.JPG)
 
-Picture 5
+![](Resource/data_5_pic.JPG)
 
 
 ## Motivation for the analysis
