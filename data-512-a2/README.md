@@ -62,8 +62,8 @@ There are two hypothesis/questions that i want to find out:
 2. Is there a bias relationships between worker demographics and labeling behavior in aggression?
 
 ## Code structure
-All of the analysis and the detail step by step are in one Jupyter notebook file which you can find from this GitHub repository.
-The images of visualization charts are also available in this repository inside the Resource folder.
+All of the analysis and the detail step by step are in one Jupyter notebook **hcds-a2-data-bias.jpynb** file which you can find from this GitHub repository.
+The images of visualization charts are also available in this repository inside the **Resource** folder.
 
 ## Helpful Notes
 As you follow along the analysis from this repository as well as the Jupyter Notebook, there are some helpful tips i want to share to ensure you reproduce the analysis with no issue.
